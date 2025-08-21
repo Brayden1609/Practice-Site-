@@ -3,8 +3,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: url("https://media.tenor.com/7ihoRxZ5yY0AAAAC/anime-tree-anime-nature.gif") no-repeat center center fixed;
-  background-size: cover;
+  background: #d9d9d9; /* soft gray */
   color: #2f3d2e;
 }
 
@@ -42,7 +41,7 @@ header p {
 
 /* Announcements */
 .announcement {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-left: 6px solid #6fcf97;
