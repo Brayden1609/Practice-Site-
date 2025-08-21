@@ -3,70 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Server Updates</title>
+  <title>Server Announcements</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #1e1e2f;
-      color: #f0f0f0;
+      background: #f5f9f4; /* light greenish background */
+      color: #2f3d2e;
     }
     header {
-      background: #292945;
-      padding: 1rem 2rem;
+      background: linear-gradient(90deg, #8fd694, #6fcf97);
+      padding: 2rem;
       text-align: center;
+      color: #ffffff;
     }
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
-    .updates {
-      max-width: 800px;
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+      color: #eaffea;
+    }
+    .container {
+      max-width: 900px;
       margin: 2rem auto;
       padding: 1rem;
     }
-    .update {
-      background: #2f2f4f;
-      border-left: 5px solid #4cafef;
-      padding: 1rem;
+    .announcement {
+      background: #ffffff;
+      padding: 1.5rem;
       margin-bottom: 1.5rem;
-      border-radius: 6px;
+      border-left: 6px solid #6fcf97;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
-    .update h2 {
+    .announcement h2 {
       margin-top: 0;
-      color: #4cafef;
+      color: #3a6f49;
+    }
+    .announcement small {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #7a8d7a;
     }
     .footer {
       text-align: center;
       padding: 1rem;
-      background: #292945;
-      margin-top: 2rem;
+      background: #e3f2e7;
       font-size: 0.9rem;
+      color: #48654d;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🌐 Server Updates</h1>
-    <p>Stay up to date with the latest news</p>
+    <h1>🌿 Story Server Announcements 🌿</h1>
+    <p>Giveaways • Events • Story Updates</p>
   </header>
 
-  <div class="updates">
-    <div class="update">
-      <h2>🔧 Maintenance - Aug 21, 2025</h2>
-      <p>Servers will be offline for scheduled maintenance from 2AM - 4AM UTC.</p>
+  <div class="container">
+
+    <div class="announcement">
+      <h2>🎉 Giveaway #5</h2>
+      <small>Posted Aug 21, 2025</small>
+      <p>We’re giving away a custom role + early sneak peek into the next story arc!  
+      Join by reacting in <strong>#giveaways</strong> before Friday.</p>
     </div>
 
-    <div class="update">
-      <h2>🚀 Patch v1.3 Released - Aug 19, 2025</h2>
-      <p>New features added: player stats tracking, improved security, and bug fixes.</p>
+    <div class="announcement">
+      <h2>📖 Chapter 2 Released</h2>
+      <small>Posted Aug 18, 2025</small>
+      <p>The next part of our ongoing story <em>“Shadows of the Grove”</em> is live.  
+      Head to <strong>#story</strong> to catch up and join the adventure!</p>
     </div>
 
-    <div class="update">
-      <h2>📢 Announcement - Aug 15, 2025</h2>
-      <p>Welcome to the new server! Expect frequent updates and events soon.</p>
+    <div class="announcement">
+      <h2>🌙 Event Night</h2>
+      <small>Posted Aug 12, 2025</small>
+      <p>Gather around the fire for a community hangout + live reading session this weekend.  
+      Starts Saturday at 7PM UTC. Don’t miss it!</p>
     </div>
+
   </div>
 
   <div class="footer">
